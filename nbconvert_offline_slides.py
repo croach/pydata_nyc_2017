@@ -307,7 +307,7 @@ c.SlidesExporter.reveal_transition = 'slide'
 #  reveal.js, or point to a CDN.
 #
 #  For speaker notes to work, a local reveal.js prefix must be used.
-c.SlidesExporter.reveal_url_prefix = './static/reveal.js'
+c.SlidesExporter.reveal_url_prefix = './static/js/reveal.js'
 
 #------------------------------------------------------------------------------
 # Preprocessor(NbConvertBase) configuration

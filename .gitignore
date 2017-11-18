@@ -1,5 +1,6 @@
 .Rhistory
 .ipynb_checkpoints/
-slides/
+
+# Ignore emacs temp files
 \#*\#
 *~

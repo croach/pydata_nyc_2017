@@ -17,7 +17,7 @@ $ git submodule update --init --recursive
 Once you have your environment set up and a local copy of reveal.js downloaded, you can view the slides by running the `jupyter nbconvert` command.
 
 ```
-$ jupyter nbconvert Talk.ipynb --config nbconvert_offline_slides.py
+$ jupyter nbconvert --config nbconvert_offline_slides.py
 ```
 
 This command will convert the `Talk.ipynb` notebook into an HTML file that can be viewed as a [slideshow presentation][jupyter-slides]. The resultant HTML file will be saved to `./slides/pydata_nyc_2017.slides.html`. To view the slides, simply open the newly created file in a browser of your choosing.

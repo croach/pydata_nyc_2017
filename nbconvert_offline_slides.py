@@ -52,11 +52,12 @@ c.NbConvertApp.export_format = 'slides'
 ## List of notebooks to convert. Wildcards are supported. Filenames passed
 #  positionally will be added to the list.
 #c.NbConvertApp.notebooks = []
+c.NbConvertApp.notebooks = ['./notebooks/Talk.ipynb']
 
 ## overwrite base name use for output files. can only be used when converting one
 #  notebook at a time.
 #c.NbConvertApp.output_base = ''
-c.NbConvertApp.output_base = 'slides/pydata_nyc_2017'
+c.NbConvertApp.output_base = 'pydata_nyc_2017'
 
 ## Directory to copy extra files (figures) to. '{notebook_name}' in the string
 #  will be converted to notebook basename
@@ -566,6 +567,7 @@ c.SlidesExporter.reveal_url_prefix = './static/js/reveal.js'
 #  notebook. To recover previous default behaviour (outputting to the current
 #  working directory) use . as the flag value.
 #c.FilesWriter.build_directory = ''
+c.FilesWriter.build_directory = './slides'
 
 ## When copying files that the notebook depends on, copy them in relation to this
 #  path, such that the destination filename will be os.path.relpath(filename,

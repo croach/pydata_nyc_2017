@@ -4,7 +4,7 @@ This is all the material for my talk titled "R for Pythonistas" for PyData NYC 2
 
 ## Setup
 
-To setup and run the notebook(s) and slides, you'll first need to create your virtual environment. I used Anaconda to create my environment and I've included my environment.yml file in this repository. Even if you're relatively comfortable with Anaconda/conda environments, I would still recommend that you read my post on [Setting up a Working R Environment][r-environment] first before creating your environment since there are a few tricks to getting the setup just right for R development.
+To setup and run the notebook(s) and slides, you'll first need to create your virtual environment. I used Anaconda to create my environment and I've included my `environment.yml` file in this repository. It may be possible to simply create your environment using the `environment.yml` file as per usual. However, even if you're relatively comfortable with Anaconda/conda environments, I would still recommend that you read my post on [Setting up a Working R Environment][r-environment] and create your environment with the instructions listed in that post instead since there are a few tricks to getting the setup just right for R development.
 
 ## Viewing the Slides
 

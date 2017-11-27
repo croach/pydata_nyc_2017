@@ -1,6 +1,8 @@
 # PyData NYC 2017
 
-This is all the material for my talk titled "R for Pythonistas" for PyData NYC 2017.
+This repository holds all of the materials for my talk titled "R for Pythonistas" for [PyData NYC 2017][pydata_nyc_2017].
+
+**NOTE:** The complete and final set of files is yet to be pushed, so expect what you see here to change over the next day or two while I clean up and finalize all of the material.
 
 ## Setup
 
@@ -23,6 +25,7 @@ $ jupyter nbconvert --config nbconvert_offline_slides.py
 This command will convert the `Talk.ipynb` notebook into an HTML file that can be viewed as a [slideshow presentation][jupyter-slides]. The resultant HTML file will be saved to `./slides/pydata_nyc_2017.slides.html`. To view the slides, simply open the newly created file in a browser of your choosing.
 
 
+[pydata_nyc_2017]: https://pydata.org/nyc2017/
 [r-environment]: http://christopherroach.com/articles/r-environment/
 [revealjs]: http://lab.hakim.se/reveal-js/
 [jupyter-slides]: https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67
